@@ -224,4 +224,6 @@ return [
 
     ],
 
+    // Heroku logging
+    'log' => env('LOG_OUTPUT', 'errorlog'),
 ];

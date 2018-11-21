@@ -3,6 +3,29 @@
   "scripts": {
   },
   "env": {
+    "APP_NAME": "ds-play-api",
+    "APP_ENV": "pr",
+    "APP_KEY": {
+      "required": true
+    },
+    "CLIENT_KEY_APP": {
+      "required": true
+    },
+    "CLIENT_KEY_WEB": {
+      "required": true
+    },
+    "OTONARI_CLIENT_TOKEN_VALIDATOR": {
+      "required": true
+    },
+    "LOG_CHANNEL": {
+      "required": true
+    },
+    "CACHE_DRIVER": {
+      "required": true
+    },
+    "NGINX_BASIC_AUTH": {
+      "required": false
+    }
   },
   "formation": {
     "web": {
